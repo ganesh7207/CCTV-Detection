@@ -1,0 +1,32 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE & Editor settings
+.idea/
+.vscode/
+
+# Pretrained Model Weights (auto-downloaded by Ultralytics on first run)
+*.pt
+yolov8n.pt
+*.onnx
+*.engine
+
+# Video files (CCTV inputs & generated outputs)
+*.mp4
+*.avi
+*.mov
+*.mkv
+input/*.mp4
+output/*.mp4
+
+# OS & Log files
+*.log
+.DS_Store
+Thumbs.db
